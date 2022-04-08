@@ -1,7 +1,13 @@
 {
   "sections": {
+    "164939963239f7e043": {
+      "type": "banner",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -19,6 +25,7 @@
     }
   },
   "order": [
+    "164939963239f7e043",
     "main",
     "form"
   ]
