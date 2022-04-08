@@ -15,8 +15,8 @@
 {%- endstyle -%}
 
 <div class="page-width contact-form-wrapper">
-  <div class="image-wrapper">
-    {{ section.settings.image | image_url: 'master' | image_tag: alt: 'Contat Image' }}
+  <div class="image-wrapper">    
+    <img src="{{ section.settings.image | image_url: 'master' }}" alt="Contact Image">
   </div>
   <div class="color-{{ section.settings.color_scheme }} gradient form-wrapper">
     <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
