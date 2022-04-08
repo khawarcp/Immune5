@@ -404,3 +404,13 @@ p.footer-description {
     border: 1px solid transparent;
     transition: 0.4s all;
 }
+
+.header-wrapper.color-background-1.gradient{
+    background-color: #f7f7f7;
+}
+
+.Container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
