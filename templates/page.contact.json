@@ -3,7 +3,9 @@
     "164939963239f7e043": {
       "type": "banner",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/page-background.png"
+        "background_image": "shopify:\/\/shop_images\/page-background.png",
+        "title": "Contact Us",
+        "show_title": true
       }
     },
     "main": {
