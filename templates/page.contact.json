@@ -3,6 +3,7 @@
     "164939963239f7e043": {
       "type": "banner",
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/page-background.png"
       }
     },
     "main": {
@@ -17,11 +18,11 @@
       "type": "contact-details",
       "settings": {
         "phone_text": "Call Us",
-        "phone": "Call Us",
+        "phone": "+1-202-555-0111",
         "email_text": "Mail Us",
-        "email": "Mail Us",
+        "email": "info@immune.5.com",
         "address_text": "Address",
-        "address": "Call Us +1-202-555-0111  Mail Us info@immune.5.com  Address 2471 Geneva Street, New York"
+        "address": "2471 Geneva Street, New York"
       }
     },
     "form": {
