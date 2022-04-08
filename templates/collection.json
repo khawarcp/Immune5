@@ -9,6 +9,12 @@
         "color_scheme": "background-1"
       }
     },
+    "1649413878d4ddbbdd": {
+      "type": "banner",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/page-background.png"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -29,6 +35,7 @@
   },
   "order": [
     "banner",
+    "1649413878d4ddbbdd",
     "product-grid"
   ]
 }
