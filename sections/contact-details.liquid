@@ -1,0 +1,73 @@
+<section class="contact-details">
+    <div class="Container">
+        <div class="contact-details-wrapper">
+            <div class="detail-col">
+                {%render 'phone-icon' %}
+                <h5>Call Us</h5>
+                <p>+1-202-555-0111</p>
+            </div>
+            <div class="detail-col">
+                {%render 'email-icon' %}
+                <h5>Mail Us</h5>
+                <p>info@immune.5.com</p>
+            </div>
+            <div class="detail-col">
+                {%render 'location-icon' %}
+                <h5>Address</h5>
+                <p>2471 Geneva Street,New York</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name" : "Contact Details",
+    "settings" :
+    [
+           {
+                  "type": "header",
+                    "content" : "Phone Details"
+           },
+            {
+                "type": "text",
+                "id": "phone_text",
+                "label": "Text"
+            },
+            {
+                "type": "text",
+                "id": "phone",
+                "label": "Phone Number"
+            },
+            {
+                "type": "header",
+                    "content" : "Email Details"
+            },
+            {
+                "type": "text",
+                "id": "email_text",
+                "label": "Text"
+            },
+            {
+                "type": "text",
+                "id": "email",
+                "label": "Email"
+            },
+            {
+                "type": "header",
+                    "content" : "Address Details"
+            },
+            {
+                "type": "text",
+                "id": "address_text",
+                "label": "Text"
+            },
+            {
+                "type": "text",
+                "id": "address",
+                "label": "Address"
+            }
+    ]
+    
+}
+{% endschema %}
