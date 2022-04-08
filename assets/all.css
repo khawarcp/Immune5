@@ -450,6 +450,7 @@ p.footer-description {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    font-family: 'Bembo Std';
 }
 
 .contact-details {
