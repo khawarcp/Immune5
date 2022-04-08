@@ -41,6 +41,10 @@
             <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
             <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
           </div>
+          <div class="field">
+            <input class="field__input" autocomplete="lastname" type="text" id="ContactForm-lastname" name="contact[last_name]" value="{% if form.lastname %}{{ form.lastname }}{% elsif customer %}{{ customer.lastname }}{% endif %}" placeholder="Last Name">
+            <label class="field__label" for="ContactForm-lastname">Last Name</label>
+          </div>
           <div class="field field--with-error">
             <input
               autocomplete="email"
