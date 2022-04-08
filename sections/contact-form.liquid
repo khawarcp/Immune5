@@ -16,7 +16,7 @@
 
 <div class="page-width contact-form-wrapper">
   <div class="image-wrapper">
-    {{ section.settings.image | image_url: 'master' | image_tag: alt: section.settings.image.alt }}
+    {{ section.settings.image | image_url: 'master' | image_tag: alt: 'Contat Image' }}
   </div>
   <div class="color-{{ section.settings.color_scheme }} gradient form-wrapper">
     <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
@@ -70,11 +70,11 @@
               </small>
             {%- endif -%}
           </div>
-        </div>
-        <div class="field">
-          <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
-          <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
-        </div>
+          <div class="field">
+            <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
+            <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+          </div>
+        </div>        
         <div class="field">
           <textarea
             rows="10"

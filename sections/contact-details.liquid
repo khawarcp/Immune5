@@ -5,14 +5,14 @@
             <div class="detail-col">
                 {%render 'phone-icon' %}
                 <h5> {{ section.settings.phone_text }} </h5>
-                <p>{{ section.settings.phone }}</p>
+                <a href="tel:{{ section.settings.phone }}">{{ section.settings.phone }}</a>
             </div>
             {% endif %}
             {% if section.settings.email != blank %}
             <div class="detail-col">
                 {%render 'email-icon' %}
                 <h5>{{ section.settings.email_text }}</h5>
-                <p> {{ section.settings.email }} </p>
+                <a href="mailto:{{ section.settings.email }}"> {{ section.settings.email }} </a>
             </div>
             {% endif %}
             {% if section.settings.address != blank %}

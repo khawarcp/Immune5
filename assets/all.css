@@ -488,7 +488,7 @@ p.footer-description {
     font-family: 'Bembo Std';
 }
 
-.detail-col p {
+.detail-col p, .detail-col a {
     font-size: 14px;
     color: #000;
     font-weight: 600;
