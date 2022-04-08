@@ -11,7 +11,9 @@
     "1649413878d4ddbbdd": {
       "type": "banner",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/page-background.png"
+        "background_image": "shopify:\/\/shop_images\/page-background.png",
+        "title": "Catalog",
+        "show_title": true
       }
     },
     "product-grid": {
