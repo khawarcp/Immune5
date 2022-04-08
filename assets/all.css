@@ -494,11 +494,18 @@ p.footer-description {
     color: #000;
     font-weight: 600;
 }
-
+.detail-col a {
+   text-decoration: none;
+}
 .contact-form-wrapper {
     display: flex;
     padding-right: 0;
     align-items: center;
+    padding-bottom: 75px;
+}
+
+.contact__button .button {
+    text-transform: uppercase;
 }
 
 .form-wrapper {
