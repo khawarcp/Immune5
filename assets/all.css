@@ -414,3 +414,20 @@ p.footer-description {
     max-width: 1400px;
     margin: 0 auto;
 }
+
+.page-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.page-banner-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
