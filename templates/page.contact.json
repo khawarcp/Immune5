@@ -13,8 +13,16 @@
         "padding_bottom": 36
       }
     },
-    "details" : {
-        "type" : "contact-details"
+    "details": {
+      "type": "contact-details",
+      "settings": {
+        "phone_text": "Call Us",
+        "phone": "Call Us",
+        "email_text": "Mail Us",
+        "email": "Mail Us",
+        "address_text": "Address",
+        "address": "Call Us +1-202-555-0111  Mail Us info@immune.5.com  Address 2471 Geneva Street, New York"
+      }
     },
     "form": {
       "type": "contact-form",
