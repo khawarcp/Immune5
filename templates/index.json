@@ -1,0 +1,260 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powerful Nutraceuticals for Better Health Immune-5",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Get Healthy Today",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home-banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1649066301cd4d50c9": {
+      "type": "index-about-Immune",
+      "settings": {
+        "heading": "About Immune-5",
+        "info": "Immune -5 is a proprietary blend of natural flavonoids\/nutraceuticals that have demonstrated powerful anti-inflammatory action against a wide variety of diseases. The synergistic action of \nthese nutraceuticals stimulate the immune system to combat multiple chronic conditions as well as \ncreating a defense against viral and bacterial infections.",
+        "button_text": "Read More",
+        "button_link": "shopify:\/\/pages\/contact",
+        "image": "shopify:\/\/shop_images\/about-immune-img.png"
+      }
+    },
+    "1649069139ff1d44a7": {
+      "type": "index-immune-steps",
+      "blocks": {
+        "a9bebab7-a17b-4fef-892c-198f2687acbc": {
+          "type": "property",
+          "settings": {
+            "heading": "100% Setisfaction",
+            "info": "Immue-5 is manufactured in the USA in a FDA registered facility, under strict quality control .",
+            "image": "shopify:\/\/shop_images\/step-img1.png"
+          }
+        },
+        "c64c8fdc-8c96-45f4-9c75-0b9ced3cab47": {
+          "type": "property",
+          "settings": {
+            "heading": "Laboratory Tested",
+            "info": "Immue-5 is manufactured in the USA in a FDA registered facilityand & \nGood Manufacturing Practice requirements",
+            "image": "shopify:\/\/shop_images\/step-img2.png"
+          }
+        },
+        "0bbaab88-fc81-4b9a-a995-1157aa4afde4": {
+          "type": "property",
+          "settings": {
+            "heading": "Fast Delivery",
+            "info": "Immue-5 is manufactured in the USA in a FDA registered facility, under strict quality control .",
+            "image": "shopify:\/\/shop_images\/step-img3.png"
+          }
+        },
+        "20c3d9a9-f45e-429e-a173-3da1179ef63b": {
+          "type": "property",
+          "settings": {
+            "heading": "Natural Ingredients",
+            "info": "These flavonoids are found in such plants as celery, parsley, citrus fruits & medicinal herbs.",
+            "image": "shopify:\/\/shop_images\/step-img4.png"
+          }
+        }
+      },
+      "block_order": [
+        "a9bebab7-a17b-4fef-892c-198f2687acbc",
+        "c64c8fdc-8c96-45f4-9c75-0b9ced3cab47",
+        "0bbaab88-fc81-4b9a-a995-1157aa4afde4",
+        "20c3d9a9-f45e-429e-a173-3da1179ef63b"
+      ],
+      "settings": {
+      }
+    },
+    "16491339044500b746": {
+      "type": "image-banner",
+      "blocks": {
+        "16491339040d743620-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powerful Nutraceuticals for Better Health Immune-5",
+            "heading_size": "h1"
+          }
+        },
+        "16491339040d743620-1": {
+          "type": "text",
+          "settings": {
+            "text": "Immune -5 is a proprietary blend of natural flavonoids\/nutraceuticals that have demonstrated powerful anti-inflammatory action against a wide variety of diseases.",
+            "text_style": "body"
+          }
+        },
+        "16491339040d743620-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Read More",
+            "button_link_1": "#",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16491339040d743620-0",
+        "16491339040d743620-1",
+        "16491339040d743620-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_12.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "164914116736c80c33": {
+      "type": "index-testimonials",
+      "blocks": {
+        "3312dc82-b635-4ee7-934d-7b7f68400e9b": {
+          "type": "testimonial",
+          "settings": {
+            "info": "“The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English”",
+            "name": "Albert Peter",
+            "post": "CEO-Founder",
+            "rating": 5
+          }
+        },
+        "99567120-8b82-4cc0-be44-cfe0e94b54c1": {
+          "type": "testimonial",
+          "settings": {
+            "info": "“The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English”",
+            "name": "Norman Franklyne",
+            "post": "Head of Department",
+            "rating": 5
+          }
+        },
+        "3c4d58b5-d3c1-4e9f-adb2-fc13993748b4": {
+          "type": "testimonial",
+          "settings": {
+            "info": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "name": "Debraj Ray",
+            "post": "Head of Department",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "3312dc82-b635-4ee7-934d-7b7f68400e9b",
+        "99567120-8b82-4cc0-be44-cfe0e94b54c1",
+        "3c4d58b5-d3c1-4e9f-adb2-fc13993748b4"
+      ],
+      "settings": {
+        "title": "Testimonials"
+      }
+    },
+    "1649142779c0b49700": {
+      "type": "image-banner",
+      "blocks": {
+        "164914277855b9e5b8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powerful Nutraceuticals for Better Health Immune-5",
+            "heading_size": "h1"
+          }
+        },
+        "164914277855b9e5b8-1": {
+          "type": "text",
+          "settings": {
+            "text": "The synergistic action of these nutraceuticals stimulate the immune system to combat multiple chronic conditions as well as creating a defense against viral and bacterial infections.",
+            "text_style": "body"
+          }
+        },
+        "164914277855b9e5b8-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Read More",
+            "button_link_1": "#",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164914277855b9e5b8-0",
+        "164914277855b9e5b8-1",
+        "164914277855b9e5b8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_16.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "164914544191944493": {
+      "type": "index-subscribe",
+      "settings": {
+        "heading": "Subscribe to our newsletter.",
+        "info": "Enter your email address below to join our mailing list and have our latest news and member only deals delivered straight to your inbox.",
+        "image": "shopify:\/\/shop_images\/about-immune-img.png"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "1649066301cd4d50c9",
+    "1649069139ff1d44a7",
+    "16491339044500b746",
+    "164914116736c80c33",
+    "1649142779c0b49700",
+    "164914544191944493"
+  ]
+}

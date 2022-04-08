@@ -1,0 +1,63 @@
+<section class="about-immune-5">
+  <div class="page-width">
+    <div class="about-immune-flex">
+      <div class="about-immune-text">
+        <h2>{{ section.settings.heading }}</h2>
+        <p>{{ section.settings.info }}</p>
+        {% if section.settings.button_text != blank %}
+        <a href="{{ section.settings.button_link}}" class="button">{{ section.settings.button_text}}</a>
+        {% endif %}
+      </div>
+      <div class="about-immune-img">
+        <img src="{{ section.settings.image | img_url : "master" }}">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+"name": "About Immune-5",
+"settings": [
+{
+"type" : "text",
+"id" : "heading",
+"label" : "Heading"
+},
+{
+"type" : "textarea",
+"id" : "info",
+"label" : "Description"
+},
+{
+"type" : "text",
+"id" : "button_text",
+"label" : "Button Text"
+},
+{
+"type" : "url",
+"id" : "button_link",
+"label" : "Link"
+},
+{
+"type" : "image_picker",
+"id" : "image",
+"label" : "Image"
+}
+],
+"presets":
+[
+{
+"name" : "About Immune-5",
+"category" : "Custom Sections"
+} 
+]
+
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

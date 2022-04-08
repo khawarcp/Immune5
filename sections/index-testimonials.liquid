@@ -1,0 +1,85 @@
+<section class="home-testimonials">
+  <div class="page-width">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="testimonials-flex">
+      {% for block in section.blocks %}
+      <div class="testimonials-col">
+        <div class="qoute-img">
+          <img src="https://cdn.shopify.com/s/files/1/0571/5895/9138/files/Vector_28e3f750-46dc-430a-8841-1433a232ff2b.png?v=1649140921">
+        </div>
+        <div class="testimonials-text">
+          <p>{{ block.settings.info }}</p>
+          <ul class="rating">
+            {% assign rate = block.settings.rating %}
+            {% for i in (1..rate) %}
+            <li><img src="https://cdn.shopify.com/s/files/1/0571/5895/9138/files/star.png?v=1649141066"></li>
+            {% endfor %}
+          </ul>
+          <h5>{{ block.settings.name }}</h5>
+          <h6>{{ block.settings.post }}</h6>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+"name": "Testimonial",
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Heading"
+}
+],
+"blocks":[
+{
+"name" : "testimonial",
+"type" : "testimonial",
+"limit" : 3,
+"settings" :
+[
+{
+"type" : "textarea",
+"id" : "info",
+"label" : "description"
+},
+{
+"type" : "text",
+"id" : "name",
+"label" : "Name"
+},
+{
+"type" : "text",
+"id" : "post",
+"label" : "post"
+},
+{
+"type" : "range",
+"id" : "rating",
+"label" : "Rating",
+"min" : 0,
+"max" : 5,
+"step" : 1,
+"default" : 5 
+}
+]
+}
+],
+"presets" :
+[
+{
+"name" : "testimonial",
+"category" : "Custom Sections"
+}  
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
