@@ -47,7 +47,7 @@
         <div class="collection page-width">
           <div class="loading-overlay gradient"></div>
   
-          <ul id="product-grid" data-id="{{ section.id }}" class="
+          <ul id="product-grid" data-id="{{ section.id }}" data-next-url="{{ paginate.next.url }}" class="
           products-on-page grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
             {% if section.settings.columns_desktop == 1 %} grid--full-width{% else %}
               grid--{{ section.settings.columns_desktop }}-col-desktop
@@ -71,9 +71,11 @@
             {%- endfor -%}
           </ul>
   
-          {%- if paginate.pages > 1 -%}
-            {% render 'pagination', paginate: paginate, anchor: '' %}
-          {%- endif -%}
+          <div class="load-more"> 
+            <a class="button button--secondary load-more__btn" onclick="loadMoreProducts()">Load More</a>
+            <div class="load-more__spinner"></div>
+          </div>
+
         </div>
       {%- endif -%}
     {%- endpaginate -%}

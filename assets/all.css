@@ -567,3 +567,28 @@ p.footer-description {
 .card__media .media img{
     padding : 75px;
 }
+
+.load-more{
+    text-align: center;
+}
+
+.load-more__btn{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.load-more__spinner {
+    display: block !important;
+    height: 35px;
+    width: 35px;
+    border: 5px solid #f8f8f8;
+    border-radius: 50%;
+    border-top: 5px solid #f66b54;
+    margin: 0 auto;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes sping {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
