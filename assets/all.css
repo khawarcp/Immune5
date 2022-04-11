@@ -603,3 +603,45 @@ p.footer-description {
     object-fit: contain;
     background: #f7f7f7;
 }
+
+.slider__slide {
+    background-color: #F3F3F3;
+}
+
+.slider__slide button img {
+    padding: 35px;
+
+}
+
+.product__title {
+    font-family: 'Bembo Std';
+}
+
+.price__regular .price-item--regular {
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    background: #4A87B5 !important;
+}
+
+.shopify-payment-button__button.shopify-payment-button__button--unbranded:hover {
+    background: transparent !important;
+    border: 1px solid #4A87B5;
+    color: #4A87B5;
+}
+
+product-form.product-form button {
+    text-transform: capitalize;
+}
+
+.product-form .product-form__submit {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 990px){
+.product--medium .thumbnail-list {
+    grid-template-columns: repeat(3,1fr);
+}
+}
