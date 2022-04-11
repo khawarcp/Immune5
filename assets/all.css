@@ -550,6 +550,20 @@ p.footer-description {
 
 .card__content .card__heading {
     font-size: 20px
-    ;margin-bottom: 10px;
+    ;margin-bottom: 5px;
     font-family: 'Bembo Std';
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+}
+
+.page-width 
+{
+    max-width: 1300px;
+}
+
+.card__media .media img{
+    padding : 75px;
 }
