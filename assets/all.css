@@ -576,7 +576,6 @@ p.footer-description {
 .load-more__btn{
     color: #fff;
     text-transform: capitalize;
-    cursor: pointer;
 }
 
 .load-more__spinner {
@@ -588,6 +587,10 @@ p.footer-description {
     border-top: 5px solid #f66b54;
     margin: 0 auto;
     animation: spin 2s linear infinite;
+}
+
+.load-more a:not([href]) {
+    cursor: pointer;
 }
 
 @keyframes spin {
