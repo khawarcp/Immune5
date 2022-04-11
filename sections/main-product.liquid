@@ -288,7 +288,6 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-            <div class="quant-variant-wrapper">
             {%- when 'quantity_selector' -%}
               <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
               {% comment %}
@@ -395,7 +394,7 @@
                 </div>
               </div>
             </noscript>
-          </div>
+  
 
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>

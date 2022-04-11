@@ -640,8 +640,12 @@ product-form.product-form button {
     color: #ffffff;
 }
 
-@media screen and (min-width: 990px){
-.product--medium .thumbnail-list {
-    grid-template-columns: repeat(3,1fr);
+.product-form .product-form__submit:hover {
+    color: #F66B54;
 }
+
+@media screen and (min-width: 990px){
+    .product--medium .thumbnail-list {
+         grid-template-columns: repeat(3,1fr) !important;
+    }
 }
