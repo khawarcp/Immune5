@@ -570,15 +570,17 @@ p.footer-description {
 
 .load-more{
     text-align: center;
+    cursor: pointer;
 }
 
 .load-more__btn{
     color: #fff;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .load-more__spinner {
-    display: block !important;
+    display: block;
     height: 35px;
     width: 35px;
     border: 5px solid #f8f8f8;
@@ -588,7 +590,7 @@ p.footer-description {
     animation: spin 2s linear infinite;
 }
 
-@keyframes sping {
+@keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
