@@ -531,4 +531,25 @@ p.footer-description {
     box-shadow: 0px 0px 5px 1px rgb(237 237 237);
 }
 
+.card__inner {
+    background-color: #F3F3F3;
+}
 
+.card-wrapper {
+    margin: 8px;
+}
+
+
+.card-information {
+    text-align: center;
+}
+
+.price .price__regular {
+    color: #F66B54;
+}
+
+.card__content .card__heading {
+    font-size: 20px
+    ;margin-bottom: 10px;
+    font-family: 'Bembo Std';
+}
