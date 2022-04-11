@@ -1,19 +1,19 @@
 {
   "sections": {
-    "164939963239f7e043": {
-      "type": "banner",
-      "settings": {
-        "background_image": "shopify:\/\/shop_images\/page-background.png",
-        "title": "Contact Us",
-        "show_title": true
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "164939963239f7e043": {
+      "type": "banner",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/page-background.png",
+        "title": "Contact Us",
+        "show_title": true
       }
     },
     "details": {
@@ -40,8 +40,8 @@
     }
   },
   "order": [
-    "164939963239f7e043",
     "main",
+    "164939963239f7e043",
     "details",
     "form"
   ]
