@@ -257,5 +257,43 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      
+  // ONe
+
+  var products_on_page = $('.products-on-page');
+  var next_url = products_on_page.data('next-url');
+
+  var load_more_btn = $('.shop-more__btn');
+  var load_more_spinner = $('.shop-more__spinner');
+
+  function shopMoreProducts(){
+  $.ajax(
+    {
+      url : next_url,
+      type : 'GET',
+      dataType: 'html',
+      beforeSend : function(){
+        load_more_btn.hide();
+        load_more_spinner.show();
+      }
+    }
+  ).done(function(next_page){
+    load_more_spinner.hide();
+    var new_products = $(next_page).find('.best-selling-flex');
+    var new_url = new_products.data('next-url');
+    if(new_url)
+      load_more_btn.show();
+
+    next_url = new_url;
+    products_on_page.append(new_products.html());
+  });
+}
+
+
+    </script>
+    <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>

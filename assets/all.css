@@ -539,9 +539,9 @@ p.footer-description {
     margin: 8px;
 }
 
-
 .card-information {
     text-align: center;
+    padding-bottom: 0;
 }
 
 .price .price__regular {
@@ -555,7 +555,7 @@ p.footer-description {
     text-align: center;
 }
 
-.price {
+.card-wrapper .price {
     text-align: center;
 }
 
