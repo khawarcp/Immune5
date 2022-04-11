@@ -566,6 +566,7 @@ p.footer-description {
 
 .card__media .media img{
     padding : 75px;
+    object-fit: contain !important;
 }
 
 .load-more{
@@ -579,12 +580,11 @@ p.footer-description {
 }
 
 .load-more__spinner {
-    display: block;
     height: 35px;
     width: 35px;
     border: 5px solid #f8f8f8;
     border-radius: 50%;
-    border-top: 5px solid #f66b54;
+    border-top:5px solid #80aaca;
     margin: 0 auto;
     animation: spin 2s linear infinite;
 }
@@ -596,4 +596,10 @@ p.footer-description {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.media>*:not(.zoom):not(.deferred-media__poster-button), .media model-viewer {
+    padding: 0 100px;
+    object-fit: contain;
+    background: #f7f7f7;
 }
