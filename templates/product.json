@@ -54,9 +54,11 @@
         "padding_bottom": 12
       }
     },
-    "product-tabbing":
-    {
-      "type" : "Product-description"
+    "product-tabbing": {
+      "type": "Product-description",
+      "settings": {
+        "reviews": "{{ product.metafields.reviews.rating | metafield_text }}"
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
