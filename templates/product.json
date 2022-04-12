@@ -43,6 +43,9 @@
         "padding_bottom": 12
       }
     },
+    "product-description": {
+      "type" : "Product-description"
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -63,6 +66,7 @@
   },
   "order": [
     "main",
+    "product-description",
     "product-recommendations"
   ]
 }
