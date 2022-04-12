@@ -743,6 +743,50 @@ ul.tabs li.current{
     margin: 40px 0;
 }
 
+
+#shopify-product-reviews {
+    border : 1px solid #E2E2E2;
+}
+
+.spr-header-title {
+    font-size: 35px;
+    font-family: 'Bembo Std';
+}
+
+a.spr-summary-actions-newreview {
+    color: #f66b54;
+}
+
+input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+label.spr-form-label {
+    font-family: 'Raleway';
+    color: #272727;
+    font-weight: 600;
+}
+
+.spr-form-label+.spr-form-input::placeholder {
+    text-align: center;
+    color: #717171;
+}
+
+.spr-form-input-textarea {
+    padding: 10px;
+    font-family: 'Raleway';
+}
+
+.spr-form-input-textarea::placeholder {
+    color: #717171;
+}
+
+a.spr-summary-actions-newreview:hover {
+    color: #f66b54;
+}
+
 @media screen and (min-width: 990px){
   .product .product--medium .thumbnail-list {
          grid-template-columns: repeat(3,1fr) !important;
