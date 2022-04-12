@@ -804,7 +804,7 @@ label.spr-form-label {
 }
 
 .spr-review-reportreview{
-    color: #f66b54;
+    color: #f66b54 !important;
 }
 
 a.spr-summary-actions-newreview:hover {
@@ -821,8 +821,13 @@ a.spr-summary-actions-newreview:hover {
     align-items: center;
 }
 
+.select .select__select {
+    color: #000000;
+    font-weight: 500;
+}
+
 @media screen and (min-width: 990px){
-  .product .product--medium .thumbnail-list {
+  .product--medium .thumbnail-list {
          grid-template-columns: repeat(3,1fr) !important;
     }
 }
