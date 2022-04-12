@@ -826,6 +826,14 @@ a.spr-summary-actions-newreview:hover {
     font-weight: 500;
 }
 
+.cart-count-bubble{
+    font-size: 1.6rem;
+    bottom: -0.2rem;
+    left: 4rem;
+    background: none;
+    color: #4A87B5;
+}
+
 @media screen and (min-width: 990px){
   .product--medium .thumbnail-list {
          grid-template-columns: repeat(3,1fr) !important;
