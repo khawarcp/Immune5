@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Jost:wght@500&display=swap');
 
 @font-face {
     font-family: 'Bembo Std';
@@ -829,10 +829,13 @@ a.spr-summary-actions-newreview:hover {
 .cart-count-bubble{
     position: static;
     font-size: 1.6rem;
-    /* bottom: -0.2rem;
-    left: 4rem; */
     background: none;
     color: #4A87B5;
+    font-family: 'Comfortaa', cursive;
+}
+
+.header__icon--cart svg {
+    margin-right: 5px;
 }
 
 .header__icon--cart {
