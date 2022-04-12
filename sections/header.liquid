@@ -510,9 +510,7 @@
             render 'icon-cart'
           endif
         -%}
-        <span class="cart-count-bubble">({{ cart.item_count }})</span>
-        
-        {% comment %}
+
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
@@ -522,7 +520,7 @@
             <span >{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
           </div>
         {%- endif -%}
-        {% endcomment %}
+  
         
       </a>
     </div>
