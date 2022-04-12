@@ -16,7 +16,7 @@
         </div>
         <div id="tab-2" class="tab-content">
             <div class="page-width">
-                {{ section.settings.reviews }}
+                <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
             </div>            
         </div>
     </div>
@@ -26,33 +26,7 @@
 {
     "name" : "Product Tabbing",
    "settings": [
-       
-          {
-              "type": "text",
-              "id": "reviews",
-              "label": "Reviews"
-          }
-       
-   ],
-   "blocks":[
-        {
-            "type": "product-reviews",
-            "name": "Reviews",
-            "settings": [
-                {
-                    "type": "text",
-                    "id": "description",
-                    "label": "Description"
-                }
-            ]
-        }
-   ],
-  "presets": [
-      {
-          "category": "Product Tabbing",
-          "name":"Product Tabbing"
-      }
-  ]
+   ]
    
 }
 {% endschema %}
