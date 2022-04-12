@@ -510,7 +510,7 @@
             render 'icon-cart'
           endif
         -%}
-        <span class="cart-count-bubble" aria-hidden="true">{{ cart.item_count | append: ')' | | prepend: '(string)'  }}</span>
+        <span class="cart-count-bubble" aria-hidden="true">{{ cart.item_count | append: ')' | prepend: '('  }}</span>
         
 
         {% comment %}
