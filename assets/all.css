@@ -794,8 +794,8 @@ label.spr-form-label {
     text-transform: capitalize;
 }
 
-.spr-review, .spr-form {
-    border-top: 1px solid #B0B0B0;
+.spr-review{
+    border-top: 1px solid #B0B0B0 !important;
 }
 
 .spr-form-title {
