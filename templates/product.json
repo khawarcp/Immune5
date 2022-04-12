@@ -56,6 +56,24 @@
     },
     "product-tabbing": {
       "type": "Product-description",
+      "blocks": {
+        "47620f41-b499-4f4f-b326-0dfefc21a037": {
+          "type": "product-reviews",
+          "settings": {
+            "description": ""
+          }
+        },
+        "b166c5df-8f36-4cda-9f06-aa8ae77ad7d6": {
+          "type": "product-reviews",
+          "settings": {
+            "description": "{{ product.metafields.reviews.rating | metafield_text }}"
+          }
+        }
+      },
+      "block_order": [
+        "47620f41-b499-4f4f-b326-0dfefc21a037",
+        "b166c5df-8f36-4cda-9f06-aa8ae77ad7d6"
+      ],
       "settings": {
         "reviews": "{{ product.metafields.reviews.rating | metafield_text }}"
       }
