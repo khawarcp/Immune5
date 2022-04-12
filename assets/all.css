@@ -754,7 +754,7 @@ ul.tabs li.current{
 }
 
 a.spr-summary-actions-newreview {
-    color: #f66b54;
+    color: #f66b54 !important;
 }
 
 input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary {
@@ -769,18 +769,29 @@ label.spr-form-label {
     font-weight: 600;
 }
 
+.spr-form-label+.spr-form-input:not(.spr-form-input.spr-starrating) {
+    min-height: 4rem;
+    background: transparent;
+    border: 1px solid #B0B0B0;
+}
+
+
 .spr-form-label+.spr-form-input::placeholder {
     text-align: center;
     color: #717171;
+    text-transform: capitalize;
 }
 
 .spr-form-input-textarea {
     padding: 10px;
     font-family: 'Raleway';
+    background: transparent;
+    border: none;
 }
 
 .spr-form-input-textarea::placeholder {
     color: #717171;
+    text-transform: capitalize;
 }
 
 a.spr-summary-actions-newreview:hover {
