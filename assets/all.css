@@ -749,7 +749,7 @@ ul.tabs li.current{
 }
 
 .spr-header-title {
-    font-size: 35px;
+    font-size: 35px !important;
     font-family: 'Bembo Std';
 }
 
@@ -794,8 +794,31 @@ label.spr-form-label {
     text-transform: capitalize;
 }
 
+.spr-review, .spr-form {
+    border-top: 1px solid #B0B0B0;
+}
+
+.spr-form-title {
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.spr-review-reportreview{
+    color: #f66b54;
+}
+
 a.spr-summary-actions-newreview:hover {
     color: #f66b54;
+}
+
+.spr-starrating {
+    justify-content: flex-start !important;
+}
+
+.spr-review-footer.rte {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 @media screen and (min-width: 990px){
