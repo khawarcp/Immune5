@@ -827,11 +827,16 @@ a.spr-summary-actions-newreview:hover {
 }
 
 .cart-count-bubble{
+    position: static;
     font-size: 1.6rem;
-    bottom: -0.2rem;
-    left: 4rem;
+    /* bottom: -0.2rem;
+    left: 4rem; */
     background: none;
     color: #4A87B5;
+}
+
+.header__icon--cart {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 990px){
