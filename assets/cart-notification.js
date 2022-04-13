@@ -9,6 +9,7 @@ class CartNotification extends HTMLElement {
     this.notification.addEventListener('keyup', (evt) => evt.code === 'Escape' && this.close());
     this.querySelectorAll('button[type="button"]').forEach((closeButton) =>
       closeButton.addEventListener('click', this.close.bind(this))
+                                                           alert(this.close.bind(this))
     );
   }
 
