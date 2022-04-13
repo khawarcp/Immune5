@@ -499,6 +499,7 @@ p.footer-description {
     font-size: 14px;
     color: #000;
     font-weight: 600;
+    margin: 0;
 }
 .detail-col a {
    text-decoration: none;
@@ -846,8 +847,131 @@ a.spr-summary-actions-newreview:hover {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 1199px){
+    .contact-details-wrapper {
+        width: 100%;
+    }
+
+    .detail-col {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .form-wrapper {
+        margin-left: -150px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .detail-col {
+        margin: 5px;
+        width: 31%;
+        min-height: 200px;
+    }
+
+    .detail-col h5 {
+        font-size: 20px;
+    }
+
+    .form-wrapper {
+        margin-left: -400px;
+    }
+
+    .form-wrapper .page-width--narrow {
+        padding: 50px 0px;
+    }
+
+    .contact-details {
+        padding: 50px 0;
+    }
+
+    .form-wrapper .title{
+        font-size: 35px;
+    }
+
+    .contact-form-wrapper {
+        padding-bottom: 50px;
+    }
+    .page-banner {
+        height: 250px;
+    }
+
+    .page-banner-title h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .page-banner {
+        height: 200px;
+    }
+
+    .contact-details-wrapper {
+        flex-direction: column;
+    }
+
+    .detail-col {
+        width: 100%;
+        min-height: unset;
+        margin-bottom: 20px;
+    }
+
+    .detail-col:last-child {
+        margin-bottom: 0;
+    }
+
+    .form-wrapper .page-width--narrow {
+        padding: 30px 0;
+    }
+
+    .form-wrapper {
+        margin-left: unset;
+        width: 100%;
+    }
+
+    .form-wrapper .title {
+        font-size: 30px;
+    }
+
+    .page-banner-title h1 {
+        font-size: 25px;
+    }
+    .contact-details {
+        padding: 30px 0;
+    }
+
+    .detail-col {
+        margin: 0 0 10px 0;
+    }
+
+    .contact-form-wrapper {
+        flex-direction: column;
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form-wrapper {
+        padding-bottom: 30px;
+    }
+
+    .contact-form-wrapper {
+        padding-bottom: 30px;
+        padding-right: 15px;
+    }
+
+    .form-wrapper{
+        padding: 0 20px;
+    }
+}
+
 @media screen and (min-width: 990px){
   .product--medium .thumbnail-list {
          grid-template-columns: repeat(3,1fr) !important;
     }
+
+
 }
