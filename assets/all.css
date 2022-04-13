@@ -538,8 +538,12 @@ p.footer-description {
     box-shadow: 0 0 0 1px rgb(237 237 237);
 }
 
-#ContactForm .field__label {
+/* #ContactForm .field__label {
     font-size: 15px;
+} */
+
+.footer-logo img {
+    width: 216px;
 }
 
 .card__inner {
