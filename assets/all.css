@@ -866,6 +866,14 @@ a.spr-summary-actions-newreview:hover {
     .about-immune-text:before {
         right: -45px;
     }
+
+    .quan-wrapper {
+        width: 20%;
+    }
+    
+    .var-wrapper {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 991px){
@@ -976,7 +984,44 @@ a.spr-summary-actions-newreview:hover {
     .banner__content.banner__content--middle-center {
         justify-content: flex-start !important;
     }
+
+    .immune-properties {
+        padding: 0 0 30px;
+    }
     
+    .quanVar-wrapper {
+        flex-direction: column;
+    }
+    
+    .quan-wrapper {
+        margin-bottom: 20px;
+        width: 30%;
+    }
+    
+    .var-wrapper {
+        width: 100%;
+    }
+    
+    .slider__slide button img {
+        padding: 10px;
+    }
+    
+    .product .media>*:not(.zoom):not(.deferred-media__poster-button) {
+        padding: 0 40px;
+    }
+    
+    .product__title {
+        font-size: 30px;
+    }
+    
+    ul.tabs li {
+        font-size: 14px;
+    }
+
+    .product__title {
+        font-size: 25px;
+    }
+
 }
 
 @media screen and (max-width: 767px){
@@ -1108,7 +1153,7 @@ a.spr-summary-actions-newreview:hover {
     }
 
     .about-immune-text {
-        padding-top: 0;
+        padding-top: 30px;
     }
 
     .footer-middle-flex {
@@ -1117,6 +1162,31 @@ a.spr-summary-actions-newreview:hover {
 
     .footer-contact-info:last-child {
         margin-top: 20px;
+    }
+
+    .card__content .card__heading {
+        font-size: 17px;
+    }
+    
+    .price__container {
+        font-size: 12px;
+    }
+    
+    .load-more__btn {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .banner__buttons .button{
+        color : #ffffff;
+    }
+
+    .card__media .media img {
+        padding: 25px !important;
+    }
+
+    .product .media>*:not(.zoom):not(.deferred-media__poster-button) {
+        padding: 0;
     }
 
 }
