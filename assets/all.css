@@ -861,6 +861,11 @@ a.spr-summary-actions-newreview:hover {
     .form-wrapper {
         margin-left: -150px;
     }
+
+    /****************** Home Page ********************/
+    .about-immune-text:before {
+        right: -45px;
+    }
 }
 
 @media screen and (max-width: 991px){
@@ -900,6 +905,78 @@ a.spr-summary-actions-newreview:hover {
     .page-banner-title h1 {
         font-size: 35px;
     }
+
+    /****************** Home Page ********************/
+    .about-immune-text:before {
+        right: -45px;
+    }
+
+    .immune-properties-text h5 {
+        font-size: 16px;margin: 0 0 10px;}
+
+    .immune-properties-img {
+        margin-bottom: 10px;
+    }
+
+    .immune-properties-text p {
+        font-size: 12px;
+    }
+
+    .immune-properties-col {
+        padding: 30px 5px;
+    }
+
+    .qoute-img img {
+        width: 50px;
+    }
+
+    .testimonials-text p {
+        font-size: 14px;
+    }
+
+    .about-immune-text {
+        width: 50%;
+        padding: 35px 25px;
+        margin-bottom: 20px;
+    }
+
+    .about-immune-img {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .about-immune-text:before {
+        width: 45px;
+        right: -30px;
+    }
+
+    .about-immune-text h2 {
+        font-size: 23px;
+        margin-bottom: 13px;
+    }
+
+    .about-immune-text p {
+        font-size: 13px;
+        margin-bottom: 17px;
+    }
+
+    .about-immune-img {
+        height: 440px;
+    }
+
+    .about-immune-img img {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .banner__content.banner__content--middle-right {
+        justify-content: flex-start;
+    }
+    
+    .banner__content.banner__content--middle-center {
+        justify-content: flex-start !important;
+    }
+    
 }
 
 @media screen and (max-width: 767px){
@@ -966,6 +1043,82 @@ a.spr-summary-actions-newreview:hover {
     .form-wrapper{
         padding: 0 20px;
     }
+
+    .about-immune-img {
+        height: 440px;
+    }
+    
+    .about-immune-5 {
+        padding: 30px 0;
+    }
+    
+    .about-immune-flex {
+        flex-direction: column;
+    }
+    
+    .about-immune-text {
+        width: 100%;
+    }
+    
+    .about-immune-img {
+        width: 100%;
+    }
+    
+    .immune-properties-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .immune-properties-col {
+        width: 50%;
+        padding: 20px 5px;
+    }
+    
+    .testimonials-flex {
+        flex-direction: column;
+    }
+    
+    .testimonials-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .testimonials-text p {
+        min-height: unset;
+    }
+    
+    .about-immune-5.newsletter-sec .about-immune-text {
+        width: 100%;
+    }
+    
+    section.about-immune-5.newsletter-sec .about-immune-img {
+        width: 100%;
+    }
+    
+    .about-immune-text:before{
+        content: none;
+    }
+
+    .immune-properties {
+        padding: 0px 0px 30px;
+    }
+
+    .home-testimonials {
+        padding: 30px 0px;
+    }
+
+    .about-immune-text {
+        padding-top: 0;
+    }
+
+    .footer-middle-flex {
+        flex-wrap: wrap;
+    }
+
+    .footer-contact-info:last-child {
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (min-width: 990px){
