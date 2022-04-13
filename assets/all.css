@@ -847,6 +847,25 @@ a.spr-summary-actions-newreview:hover {
     text-decoration: none;
 }
 
+.cart-notification-product__name {
+    font-size: 17px;
+}
+
+.cart-notification__links > * {
+    color: #fff;
+}
+
+.product-option {
+    font-size: 12px;
+}
+
+.quantity__input {
+    color: #000000;
+}
+
+.icon .icon-plus path, .icon .icon-minus path {
+    color: #000000;
+}
 
 @media screen and (max-width: 1199px){
     .contact-details-wrapper {
@@ -1192,6 +1211,10 @@ a.spr-summary-actions-newreview:hover {
     .grid--peek.slider .grid__item {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+    }
+
+    .product__modal-opener {
+        padding: 30px;
     }
 
 }
