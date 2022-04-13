@@ -120,8 +120,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/logo_00068a89-e44d-415d-a73d-7fdcaa8c6079.png",
-          "logo_width": 250,
+          "logo": "shopify:\/\/shop_images\/KellMed-logo_1.png",
+          "logo_width": 200,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": false,
@@ -188,7 +188,7 @@
       "new-footer": {
         "type": "new-footer",
         "settings": {
-          "image": "shopify:\/\/shop_images\/footer-logo.png",
+          "image": "shopify:\/\/shop_images\/KellMed-logo_1.png",
           "info": "Immune -5 is a proprietary blend of natural flavonoids\/nutraceuticals that have demonstrated powerful anti-inflammatory action against a wide variety of diseases. The synergistic action of these nutraceuticals stimulate the immune system to combat multiple chronic conditions as well as creating a defense against viral and bacterial infections.",
           "address": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
           "phone": "(123) 456-0789",
