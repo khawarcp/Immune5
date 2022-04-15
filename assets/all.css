@@ -1249,3 +1249,9 @@ a.spr-summary-actions-newreview:hover {
 
 
 }
+
+@media (min-width: 1200px) and (max-width: 1439px){
+.banner--medium:not(.banner--adapt) {
+    min-height: 46rem !important;
+}
+}
