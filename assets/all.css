@@ -756,7 +756,10 @@ ul.tabs li.current{
 .spr-header-title {
     font-size: 35px !important;
     font-family: 'Bembo Std';
+    color: #000000;
 }
+
+
 
 a.spr-summary-actions-newreview {
     color: #f66b54 !important;
@@ -866,6 +869,12 @@ a.spr-summary-actions-newreview:hover {
 .icon .icon-plus path, .icon .icon-minus path {
     color: #000000;
 }
+
+.newsletter-subscribe input[type=email]::placeholder {
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
 
 @media screen and (max-width: 1199px){
     .contact-details-wrapper {
@@ -1216,6 +1225,20 @@ a.spr-summary-actions-newreview:hover {
     .product__modal-opener {
         padding: 30px;
     }
+
+    .prod-des div {
+        text-align: justify;
+    }
+    
+    .prod-des div h1, 
+    .prod-des div h2,
+    .prod-des div h3,
+    .prod-des div h4,
+    .prod-des div h5,
+    .prod-des div h6 {
+        text-align: left;
+    }
+    
 
 }
 
