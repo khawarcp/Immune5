@@ -8,7 +8,7 @@
           <img src="https://cdn.shopify.com/s/files/1/0571/5895/9138/files/Vector_28e3f750-46dc-430a-8841-1433a232ff2b.png?v=1649140921">
         </div>
         <div class="testimonials-text">
-          <p>{{ block.settings.info }}</p>
+          <p>{{ block.settings.info |  newline_to_br }}</p>
           <ul class="rating">
             {% assign rate = block.settings.rating %}
             {% for i in (1..rate) %}
